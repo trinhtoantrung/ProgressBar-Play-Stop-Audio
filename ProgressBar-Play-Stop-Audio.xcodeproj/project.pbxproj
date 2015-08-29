@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48029BA01B7F1BE30039FF90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48029B9F1B7F1BE30039FF90 /* AppDelegate.swift */; };
+		48029BA21B7F1BE30039FF90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48029BA11B7F1BE30039FF90 /* ViewController.swift */; };
+		48029BA51B7F1BE30039FF90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48029BA31B7F1BE30039FF90 /* Main.storyboard */; };
+		48029BA71B7F1BE30039FF90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48029BA61B7F1BE30039FF90 /* Images.xcassets */; };
+		48029BAA1B7F1BE30039FF90 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48029BA81B7F1BE30039FF90 /* LaunchScreen.xib */; };
+		48029BB61B7F1BE30039FF90 /* ProgressBar_Play_Stop_AudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48029BB51B7F1BE30039FF90 /* ProgressBar_Play_Stop_AudioTests.swift */; };
+		48029BC01B7F1F760039FF90 /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48029BBF1B7F1F760039FF90 /* movie_quote.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48029BB01B7F1BE30039FF90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48029B921B7F1BE20039FF90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48029B991B7F1BE30039FF90;
+			remoteInfo = "ProgressBar-Play-Stop-Audio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48029B9A1B7F1BE30039FF90 /* ProgressBar-Play-Stop-Audio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ProgressBar-Play-Stop-Audio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48029B9E1B7F1BE30039FF90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48029B9F1B7F1BE30039FF90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48029BA11B7F1BE30039FF90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48029BA41B7F1BE30039FF90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48029BA61B7F1BE30039FF90 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		48029BA91B7F1BE30039FF90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		48029BAF1B7F1BE30039FF90 /* ProgressBar-Play-Stop-AudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ProgressBar-Play-Stop-AudioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48029BB41B7F1BE30039FF90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48029BB51B7F1BE30039FF90 /* ProgressBar_Play_Stop_AudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar_Play_Stop_AudioTests.swift; sourceTree = "<group>"; };
+		48029BBF1B7F1F760039FF90 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = movie_quote.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48029B971B7F1BE30039FF90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48029BAC1B7F1BE30039FF90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48029B911B7F1BE20039FF90 = {
+			isa = PBXGroup;
+			children = (
+				48029B9C1B7F1BE30039FF90 /* ProgressBar-Play-Stop-Audio */,
+				48029BB21B7F1BE30039FF90 /* ProgressBar-Play-Stop-AudioTests */,
+				48029B9B1B7F1BE30039FF90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48029B9B1B7F1BE30039FF90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48029B9A1B7F1BE30039FF90 /* ProgressBar-Play-Stop-Audio.app */,
+				48029BAF1B7F1BE30039FF90 /* ProgressBar-Play-Stop-AudioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48029B9C1B7F1BE30039FF90 /* ProgressBar-Play-Stop-Audio */ = {
+			isa = PBXGroup;
+			children = (
+				48029B9F1B7F1BE30039FF90 /* AppDelegate.swift */,
+				48029BA11B7F1BE30039FF90 /* ViewController.swift */,
+				48029BA31B7F1BE30039FF90 /* Main.storyboard */,
+				48029BA61B7F1BE30039FF90 /* Images.xcassets */,
+				48029BA81B7F1BE30039FF90 /* LaunchScreen.xib */,
+				48029B9D1B7F1BE30039FF90 /* Supporting Files */,
+			);
+			path = "ProgressBar-Play-Stop-Audio";
+			sourceTree = "<group>";
+		};
+		48029B9D1B7F1BE30039FF90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48029BBF1B7F1F760039FF90 /* movie_quote.mp3 */,
+				48029B9E1B7F1BE30039FF90 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48029BB21B7F1BE30039FF90 /* ProgressBar-Play-Stop-AudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				48029BB51B7F1BE30039FF90 /* ProgressBar_Play_Stop_AudioTests.swift */,
+				48029BB31B7F1BE30039FF90 /* Supporting Files */,
+			);
+			path = "ProgressBar-Play-Stop-AudioTests";
+			sourceTree = "<group>";
+		};
+		48029BB31B7F1BE30039FF90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48029BB41B7F1BE30039FF90 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48029B991B7F1BE30039FF90 /* ProgressBar-Play-Stop-Audio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48029BB91B7F1BE30039FF90 /* Build configuration list for PBXNativeTarget "ProgressBar-Play-Stop-Audio" */;
+			buildPhases = (
+				48029B961B7F1BE30039FF90 /* Sources */,
+				48029B971B7F1BE30039FF90 /* Frameworks */,
+				48029B981B7F1BE30039FF90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ProgressBar-Play-Stop-Audio";
+			productName = "ProgressBar-Play-Stop-Audio";
+			productReference = 48029B9A1B7F1BE30039FF90 /* ProgressBar-Play-Stop-Audio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48029BAE1B7F1BE30039FF90 /* ProgressBar-Play-Stop-AudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48029BBC1B7F1BE30039FF90 /* Build configuration list for PBXNativeTarget "ProgressBar-Play-Stop-AudioTests" */;
+			buildPhases = (
+				48029BAB1B7F1BE30039FF90 /* Sources */,
+				48029BAC1B7F1BE30039FF90 /* Frameworks */,
+				48029BAD1B7F1BE30039FF90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48029BB11B7F1BE30039FF90 /* PBXTargetDependency */,
+			);
+			name = "ProgressBar-Play-Stop-AudioTests";
+			productName = "ProgressBar-Play-Stop-AudioTests";
+			productReference = 48029BAF1B7F1BE30039FF90 /* ProgressBar-Play-Stop-AudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48029B921B7F1BE20039FF90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Trung Trinh";
+				TargetAttributes = {
+					48029B991B7F1BE30039FF90 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					48029BAE1B7F1BE30039FF90 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 48029B991B7F1BE30039FF90;
+					};
+				};
+			};
+			buildConfigurationList = 48029B951B7F1BE20039FF90 /* Build configuration list for PBXProject "ProgressBar-Play-Stop-Audio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48029B911B7F1BE20039FF90;
+			productRefGroup = 48029B9B1B7F1BE30039FF90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48029B991B7F1BE30039FF90 /* ProgressBar-Play-Stop-Audio */,
+				48029BAE1B7F1BE30039FF90 /* ProgressBar-Play-Stop-AudioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48029B981B7F1BE30039FF90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48029BA51B7F1BE30039FF90 /* Main.storyboard in Resources */,
+				48029BAA1B7F1BE30039FF90 /* LaunchScreen.xib in Resources */,
+				48029BC01B7F1F760039FF90 /* movie_quote.mp3 in Resources */,
+				48029BA71B7F1BE30039FF90 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48029BAD1B7F1BE30039FF90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48029B961B7F1BE30039FF90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48029BA21B7F1BE30039FF90 /* ViewController.swift in Sources */,
+				48029BA01B7F1BE30039FF90 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48029BAB1B7F1BE30039FF90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48029BB61B7F1BE30039FF90 /* ProgressBar_Play_Stop_AudioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48029BB11B7F1BE30039FF90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48029B991B7F1BE30039FF90 /* ProgressBar-Play-Stop-Audio */;
+			targetProxy = 48029BB01B7F1BE30039FF90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48029BA31B7F1BE30039FF90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48029BA41B7F1BE30039FF90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48029BA81B7F1BE30039FF90 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48029BA91B7F1BE30039FF90 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48029BB71B7F1BE30039FF90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48029BB81B7F1BE30039FF90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48029BBA1B7F1BE30039FF90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ProgressBar-Play-Stop-Audio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48029BBB1B7F1BE30039FF90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ProgressBar-Play-Stop-Audio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		48029BBD1B7F1BE30039FF90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ProgressBar-Play-Stop-AudioTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgressBar-Play-Stop-Audio.app/ProgressBar-Play-Stop-Audio";
+			};
+			name = Debug;
+		};
+		48029BBE1B7F1BE30039FF90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ProgressBar-Play-Stop-AudioTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgressBar-Play-Stop-Audio.app/ProgressBar-Play-Stop-Audio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48029B951B7F1BE20039FF90 /* Build configuration list for PBXProject "ProgressBar-Play-Stop-Audio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48029BB71B7F1BE30039FF90 /* Debug */,
+				48029BB81B7F1BE30039FF90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48029BB91B7F1BE30039FF90 /* Build configuration list for PBXNativeTarget "ProgressBar-Play-Stop-Audio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48029BBA1B7F1BE30039FF90 /* Debug */,
+				48029BBB1B7F1BE30039FF90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48029BBC1B7F1BE30039FF90 /* Build configuration list for PBXNativeTarget "ProgressBar-Play-Stop-AudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48029BBD1B7F1BE30039FF90 /* Debug */,
+				48029BBE1B7F1BE30039FF90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48029B921B7F1BE20039FF90 /* Project object */;
+}
